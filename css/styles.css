@@ -137,6 +137,7 @@ padding:7% 20%;
    padding:5% 15%;
    font-family: "Montserrat";
    text-align: center;
+   margin:auto;
 }
 .price-head-h2{
    color: #8f8f8f;
@@ -149,6 +150,7 @@ padding:7% 20%;
    color: #8f8f8f;
 }
 .col-md-6-price-feature{
+margin:auto;
 padding:5% 3%;
 }
 .card-header
