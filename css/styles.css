@@ -61,6 +61,17 @@ h1{
    padding-top: 15%;
 }
 
+
+@media (max-width:1000px) {
+   .row{
+      text-align: center;
+   }
+   .title-img{
+      width: 40%;
+   }
+
+}
+
 /*-------- features---- */
 #features{
    margin:auto;
@@ -68,7 +79,7 @@ h1{
    padding:10% 10%;
 }
 .col-md-6-features{
-   margin:auto;
+   text-align: center;
    padding-left:5%;
    padding-right: 5%;
    line-height:1.5;
@@ -90,8 +101,27 @@ h1{
 .feature-icon-text{
    font-family: "Montserrat";
    font-weight: 700;
-   font-size:1rem;
+   font-size:1.2rem;
    color: #8f8f8f;
+}
+
+@media (max-width:1000px) {
+   .feature-icon-heading{
+      font-size:2rem;
+   }
+   .feature-icon-text{
+      font-size:1.5rem;
+   }
+   #features{
+      margin:auto;
+      text-align: center;
+      padding:10% 4%;
+   }
+   .col-md-6-features{
+      margin:auto;
+      padding: 0 3% 5%;
+      line-height:1.5;
+   }
 }
 
 
@@ -119,6 +149,22 @@ padding:7% 20%;
    border-radius: 100%;
 
 }
+
+
+@media (max-width:1000px) {
+   .testimonial-text{
+      font-size: 2.5em;
+   }
+   .testimonial-image{
+      width: 20%;
+      border-radius: 100%;
+   }
+   .feature-img-text
+   {
+      font-size: 1.5em;
+   }
+}
+
    /* <!-- Press --> */
 #press{
    padding:5% 1%;
@@ -128,6 +174,13 @@ padding:7% 20%;
 {
    padding: 1%;
    width: 15%;
+}
+@media (max-width:1000px) {
+   .press-image
+   {
+      padding: 1%;
+      width: 20%;
+   }
 }
 
 
